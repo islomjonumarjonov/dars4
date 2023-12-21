@@ -4,7 +4,7 @@
 
 @layer components {
   button {
-    @apply btn;
+    @apply btn hover:opacity-80 duration-75 transition;
   }
 
   html {
